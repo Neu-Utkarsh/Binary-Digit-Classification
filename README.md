@@ -5,7 +5,7 @@ This project implements a simple neural network from scratch in NumPy to classif
 ## Highlights
 - Implemented forward and backward pass manually (no libraries like TensorFlow/PyTorch)
 - Uses Sigmoid activation in all layers
-- Final accuracy: ~100% on small binary dataset
+- Final accuracy: ~ 51.39% on small binary dataset
 - Visualizes predictions on test images
 
 ## How to Run
