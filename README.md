@@ -5,8 +5,19 @@ This project implements a simple neural network from scratch in NumPy to classif
 ## Highlights
 - Implemented forward and backward pass manually (no libraries like TensorFlow/PyTorch)
 - Uses Sigmoid activation in all layers
-- Final accuracy: ~ 51.39% on small binary dataset
 - Visualizes predictions on test images
+
+## Model Performance
+ - The model was trained from scratch using a simple 3-layer neural network (manually implemented without using libraries like TensorFlow or PyTorch).
+
+📌 Test Accuracy Achieved: ~51.39%
+
+  - Note:
+      This basic model was intentionally built for learning purposes — using only raw pixel data (without feature extraction) and manually computed gradients. The relatively low accuracy is due to:
+      Small and shallow neural network.
+      Manual training without optimizers or regularization.
+      Limited feature learning from raw input.
+   - This project was never meant to achieve state-of-the-art performance, but to understand the internals of neural networks and training mechanisms.
 
 ## How to Run
 1. Open the `.ipynb` file in Jupyter Notebook.
