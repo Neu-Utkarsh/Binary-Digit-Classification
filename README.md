@@ -1,34 +1,33 @@
-# Binary Digit Classifier (0 vs 1)
+# Classification Projects
 
-This project implements a simple neural network from scratch in NumPy to classify handwritten digits '0' and '1' from the scikit-learn digits dataset.
+This repo contains beginner-friendly classification projects using ML and DL.
 
-## Highlights
-- Implemented forward and backward pass manually (no libraries like TensorFlow/PyTorch)
-- Uses Sigmoid activation in all layers
-- Visualizes predictions on test images
+## Projects
 
-## Model Performance
- - The model was trained from scratch using a simple 3-layer neural network (manually implemented without using libraries like TensorFlow or PyTorch).
+- **Cats vs Dogs (Binary Classification)**  
+  Image classification using Logistic Regression, Decision Tree, and CNN.  
+  Includes training vs validation plots and improvement suggestions.  
+  **Note**: For model comparison, 2K images were used. Final CNN was trained on full 25K images.
 
-📌 Test Accuracy Achieved: ~51.39%
+- **Binary Digit Classifier (Binary Classification)**  
+  A logistic regression model to classify two handwritten digits (e.g., 0 vs 1).
 
-  - Note:
-      This basic model was intentionally built for learning purposes — using only raw pixel data (without feature extraction) and manually computed gradients. The relatively low accuracy is due to:
-      Small and shallow neural network.
-      Manual training without optimizers or regularization.
-      Limited feature learning from raw input.
-   - This project was never meant to achieve state-of-the-art performance, but to understand the internals of neural networks and training mechanisms.
+- **Rock-Paper-Scissors Classifier (Multiclass Classification)**  
+  A CNN model trained to classify hand gestures into Rock, Paper, or Scissors.  
+  Demonstrates basic multiclass classification using image data.
 
-## How to Run
-1. Open the `.ipynb` file in Jupyter Notebook.
-2. Run all cells one-by-one.
-3. You'll see:
-   - Training logs
-   - Final accuracy
-   - 16 digit predictions in image format
+## Folder Structure
 
-## Dataset
-We use a filtered subset of the sklearn digits dataset containing only digits `0` and `1`.
+Each project has its own folder with:
+- Notebook and code
+- Short description or README
+- (Optional) Improvement notes
 
-## Author
-Utkarsh Pandey (GitHub: [Neu-Utkarsh](https://github.com/Neu-Utkarsh))
+## Notes
+
+- Datasets are not included. Download links are mentioned inside each notebook.
+- Projects are organized to show gradual learning and model improvement.
+
+---
+
+More projects coming soon...
